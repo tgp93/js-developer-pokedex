@@ -1,0 +1,103 @@
+.pokedialog {
+    width: 100vw;
+    height: 100vh;
+    max-width: 350px;
+    max-height: 600px;
+    border-radius: 1rem;
+    border: none;
+    padding: 0;
+}
+
+    .pokedialog .buttoncenter {
+        text-align: center;
+    }
+
+    .pokedialog .closebutton {
+        margin-top: 1rem;
+    }
+
+    .pokedialog .dialogname {
+        color: #fff;
+        text-transform: capitalize;
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .pokedialog .dialognumber {
+        color: #fff;
+        text-align: center;
+        font-size: 1rem;
+        margin: .25rem 0 .5rem 0;
+    }
+
+    .pokedialog .dialogtypes {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+    }
+
+        .pokedialog .dialogtypes .dialogtype {
+            color: #fff;
+            display: inline-flex;
+            padding: .25rem .5rem;
+            margin: .25rem .25rem;
+            font-size: 1rem;
+            border-radius: 1rem;
+            filter: brightness(1.1);
+            text-align: center;
+        }
+
+    .pokedialog .pokeimg {
+        display: block;
+        margin: 1rem auto 1rem auto;
+        max-width: 100%;
+        height: 150px;
+    }
+
+    .pokedialog .dialogdiv {
+        width: 100%;
+        margin: .5rem 0 .5rem 0;
+        border-radius: 1rem;
+        background-color: #fff;
+        color: #000000;
+    }
+
+    .pokedialog .charbanner {
+        margin: 1rem 0 1rem 0;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .pokedialog .charheight {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .pokedialog .charweight {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .pokedialog .charxp {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .pokedialog .charabilities {
+        padding: 0;
+        text-align: center;
+    }
+
+        .pokedialog .charabilities .charability {
+            display: inline-flex;
+            margin: .25rem;
+            font-size: 1rem;
+            text-align: center;
+            text-transform: capitalize;
+        }
+
+.pokedialog::backdrop {
+    backdrop-filter: blur(15px);
+}

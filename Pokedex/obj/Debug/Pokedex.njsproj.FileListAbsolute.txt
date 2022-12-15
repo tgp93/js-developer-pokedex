@@ -1,0 +1,3 @@
+C:\Users\thale\Downloads\Pokedex\Pokedex\obj\Debug\Pokedex.njsproj.AssemblyReference.cache
+C:\Users\thale\Downloads\Pokedex\Pokedex\obj\Debug\Pokedex.njsproj.CoreCompileInputs.cache
+C:\Users\thale\Downloads\Pokedex\Pokedex\bin\Microsoft.NodejsTools.WebRole.dll
